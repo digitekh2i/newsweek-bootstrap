@@ -182,7 +182,34 @@ img {
   padding: 0 1rem;
   line-height: 2.5em;
   text-align: center;
-  font-size: 17px;
+  font-size: 1.0625em;
   font-weight: 700;
   background-color: rgba(240, 255, 240, 0.966);
+}
+
+.main-news-col-1 .card-title,
+.main-news-col-2 .card-title {
+  margin: 0.6rem 0 0 0;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.main-news-col-1 .card-text,
+.main-news-col-2 .card-text {
+  font-size: 1.0625em;
+}
+
+.news-grid .card-custom-img {
+  height: 10em;
+}
+
+.news-grid img {
+  height: 100%;
+}
+
+.news-grid .card-title,
+.news-grid-mig {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0.7rem 0;
 }
