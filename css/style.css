@@ -293,3 +293,43 @@ img {
   width: 1.875em;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat var(--main-color);
 }
+
+/* Magazine Section */
+
+
+.news-magazine .card-custom-img {
+  position: relative;
+}
+
+.news-magazine .card-img-overlay {
+  position: absolute;
+  bottom: 2.6875em;
+}
+
+.editors-pick .card-img-overlay {
+  bottom: 0;
+}
+
+.mag-images {
+  width: 100%;
+  height: 20vw;
+}
+
+.news-letter,
+.news-letter * {
+  overflow-x: hidden;
+}
+
+.news-letter img {
+  height: 20em;
+}
+
+.news-world-stories .img-cont > img {
+  min-width: 6.25em;
+  max-width: 6.25em;
+  height: 5.375em;
+}
+
+.news-subscribe .position-absolute {
+  left: 20%;
+}
