@@ -333,3 +333,13 @@ img {
 .news-subscribe .position-absolute {
   left: 20%;
 }
+
+/* footer */
+
+.footer-icons li {
+  margin: 0 0.2rem;
+}
+
+.footer-logo {
+  width: 250px;
+}
