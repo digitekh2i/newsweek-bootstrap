@@ -220,9 +220,76 @@ img {
 }
 
 .news-grid .card-img-overlay {
-  height: 25px;
-  font-size: 14px;
-  line-height: 25px;
+  height: 1.5625em;
+  font-size: 0.875em;
+  line-height: 1.5625em;
   color: black;
   background-color: rgba(206, 207, 206, 0.966);
+}
+
+.news-stories {
+  height: 65.625em;
+  overflow-y: auto;
+}
+
+.news-stories-container {
+  min-height: 6.875em;
+  border-top: 1px solid var(--color2);
+}
+
+.news-stories-avatar,
+.news-stories-avatar img {
+  width: 5.9375em;
+  height: 5.9375em;
+}
+
+.stories-header {
+  font-size: 1.125em;
+}
+
+.news-stories::-webkit-scrollbar {
+  width: 0.625em;
+}
+
+.news-debate-container {
+  border-top: 0.1875em solid var(--color2);
+  border-bottom: 0.1875em solid var(--color2);
+}
+
+.news-debate-avatar img {
+  width: 3.9375em;
+  height: 3.9375em;
+}
+
+.news-debate-content-header {
+  font-size: 1em;
+}
+
+.news-debate-divider {
+  position: relative;
+  border-top: double 4px var(--color2);
+}
+
+.divider-icon {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: var(--color3);
+  line-height: 35px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+.news-opinion-profile {
+  border-bottom: 1px solid var(--color2);
+}
+
+.form-header-icon {
+  height: 1.8125em;
+  width: 1.875em;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat var(--main-color);
 }
