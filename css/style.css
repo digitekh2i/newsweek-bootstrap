@@ -1,4 +1,4 @@
-/* Defaults */
+/* Generics */
 * {
   box-sizing: border-box;
 }
@@ -156,3 +156,33 @@ img {
     color: var(--main-color);
     text-decoration: none;
   }
+
+  /* main */
+ 
+.main-news-col-1 .card-custom-img,
+.main-news-col-2 .card-custom-img {
+  width: 100%;
+  max-height: 16.25em;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-news-col-2 .card-custom-img {
+  max-height: 19.375em;
+}
+
+.card-img-overlay {
+  top: unset;
+  bottom: 0;
+  left: 0;
+  right: unset;
+  display: inline-block;
+  width: auto;
+  height: 2.1875em;
+  padding: 0 1rem;
+  line-height: 2.5em;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: rgba(240, 255, 240, 0.966);
+}
