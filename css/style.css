@@ -213,3 +213,16 @@ img {
   font-weight: 600;
   margin: 0.7rem 0;
 }
+
+.news-grid .card-title a,
+.news-grid-mig .card-title a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.news-grid .card-img-overlay {
+  height: 25px;
+  font-size: 14px;
+  line-height: 25px;
+  color: black;
+  background-color: rgba(206, 207, 206, 0.966);
+}
