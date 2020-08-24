@@ -3,7 +3,9 @@
 
 > For the purpose of educational practical exhibition for learning bootstrap, i recreated newsweek homepage, with most of the styling and responsive build buildup attributed to bootsrap as part the Microverse Technical Curriculum Assignment.  
 
-![screenshot](images/screen.png)
+![screenshot](media/desktop.png)
+![screenshot](media/tablet.png)
+![screenshot](media/moblile.png)
 
 
 ## Built With
