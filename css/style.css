@@ -367,12 +367,12 @@ img {
 
   .main-news-col-1 .card-title,
   .main-news-col-2 .card-title {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .main-news-col-1 .card-text,
   .main-news-col-2 .card-text {
-    font-size: 14px;
+    font-size: 0.875em;
   }
 
   .max-height-custom {
@@ -384,7 +384,7 @@ img {
   }
 
   .news-grid-mig .card-title {
-    font-size: 16px;
+    font-size: 1em;
   }
 }
 
@@ -397,7 +397,7 @@ img {
   .news-subscribe .jumbotron {
     position: relative;
     padding: 2rem 0;
-    height: 330px;
+    height: 20.625em;
   }
 
   .subsc-img-cont {
