@@ -5,16 +5,17 @@
 
 ![screenshot](media/desktop.png)
 ![screenshot](media/tablet.png)
-![screenshot](media/moblile.png)
+![screenshot](media/mobile.png)
 
 
 ## Built With
 
+- bootstrap,
 - html & css,
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://raw.githack.com/digitekh2i/apple-home-page/feature/index.html)
+[Live Demo Link](https://digitekh2i.github.io/newsweek-bootstrap/)
 
 ## Authors
 
