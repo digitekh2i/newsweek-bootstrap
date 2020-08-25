@@ -109,7 +109,7 @@ img {
 }
 
 .fixednav-btn-toggle {
-  width: 1.875en;
+  width: 1.875em;
   height: 100%;
 }
 
@@ -397,7 +397,6 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  
   .main-news-col-1 .card-custom-img,
   .main-news-col-2 .card-custom-img {
     position: relative;
@@ -456,10 +455,8 @@ img {
   }
 }
 
-  @media screen and (max-width: 991px) {
-    .news-letter img {
-      height: 40vh;
-    }
+@media screen and (max-width: 991px) {
+  .news-letter img {
+    height: 40vh;
   }
-
-
+}
