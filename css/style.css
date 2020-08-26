@@ -36,7 +36,7 @@ img {
 }
 
 .border-temp-1 {
-  border: 2px dashed rgb(12, 1, 1) !important;
+  border: 2px dashed black;
 }
 
 .border-temp-2 {
