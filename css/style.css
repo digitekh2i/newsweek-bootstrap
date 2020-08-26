@@ -173,12 +173,12 @@ img {
 }
 
 .header-middle_search > p {
-  font-size: 1.3125em;
+  font-size: 20px;
 }
 
 .header-middle_search > img {
-  height: 1.6875em;
-  width: 1.6875em;
+  height: 24px;
+  width: 24px;
 }
 
 .header-bottom {
