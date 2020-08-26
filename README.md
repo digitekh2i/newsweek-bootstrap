@@ -17,7 +17,7 @@
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://digitekh2i.github.io/newsweek-bootstrap/)
+[Live Demo Link](https://raw.githack.com/digitekh2i/newsweek-bootstrap/dev-ground/index.html)
 
 ## Authors
 
