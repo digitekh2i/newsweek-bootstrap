@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Newsweek</title>
+</head>
+<body>
+ <!-- nav -->
+
+ <nav id="fixedNav" class="justify-content-between fixednav d-flex w-100 d-lg-none main-bg">
+  <a class="brand m-2 col-2" href="#">
+    <img class="h-75 m-1" src="./media/logo1.png" alt="News week">
+  </a>
+  <div class="mr-2 fixednav-btns">
+    <a class="avatar d-inline-block d-md-none" href="#"><img
+        src="https://img.icons8.com/ultraviolet/40/000000/gender-neutral-user.png" alt="news wek"/></a>
+    <a class="btn btn-link font-weight-bold mx-md-1 fixednav-btn-login d-none d-md-inline-block" href="#">LOGIN</a>
+    <button class="align-self-center text-uppercase font-weight-bold mx-md-1 py-0 btn fixednav-btn-subsc"
+      type="button">subscribe <span class="d-inline">&#10095;</span></button>
+    <a class="fixednav-btn-toggle p-0 mx-md-1 btn  pt-2" href="#">
+      <div class="my-1"></div>
+      <div class="my-1"></div>
+      <div class="my-1"></div>
+    </a>
+  </div>
+</nav>
+
+  <!-- header -->
+
+      <header class="main-header container-fluid p-0 d-none d-lg-block ">
+        <div class="main-header-container width-custom mx-auto">
+          <div class="row w-100 m-0 header-top main-bg">
+            <div class="header-top_weather-date py-1 pl-4 pr-0 col-3 d-flex flex-column flex-shrink-1 justify-content-center">
+              <div class="weather mb-2 mt-0 d-flex text-white font-weight-bolder">
+                <img src="./media/temp.png" alt="weather" class="img-fluid">
+                <p class="ml-2">21°</p>
+                <p  class="ml-1">Dublin, IE</p>
+                <p class="text-white-50 ml-1">&#10095;</p>
+              </div>
+              <div class="date text-white">
+                <p>Wed, Aug 12, 2020</p>
+              </div>
+            </div>
+            <div class="header-top_logo py-3 pl-0 col-6 d-flex justify-content-center">
+              <img src="./media/logo1.png" alt="Newsweek logo" class="mr-4">
+            </div>
+            <div class="header-top_btns col-3 d-flex justify-content-end align-items-end pb-4">
+              <a href="#" class="btn btn-link font-weight-bold mx-3 p-0 fixednav-btn-login hover-none">LOGIN</a>
+              <button class="text-uppercase font-weight-bold mx-1 py-0 btn fixednav-btn-subsc" type="button">subscribe <span
+                  class="d-inline">&#10095;</span></button>
+            </div>
+          </div>
+          <div class="header-middle position-relative row w-100 m-0 d-flex white-bg">
+            <div class="header-middle_links d-flex align-items-center">
+              <ul class="list-group-horizontal d-flex justify-content-around w-100 list-unstyled list-group">
+                <li><a href="#">U.S</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Tech & Science</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Newsgeek</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">The Debate</a></li>
+                <li><a href="#">Vantage</a></li>
+                <li class="border-0"><a href="#">Weather</a></li>
+              </ul>
+            </div>
+            <div class="header-middle_search d-flex align-items-center">
+              <p class="text-muted mr-2">Search</p>
+              <img class="img-fluid" src="https://img.icons8.com/ios/50/000000/search-more.png" alt="news" />
+            </div>
+          </div>
+          <div class="row w-100 m-0 pl-2 header-bottom d-flex align-items-center white-bg">
+            <ul class="list-unstyled list-group list-group-horizontal text-uppercase">
+              <li><a class="text-dark" href="#">Trending</a></li>
+              <li><a class="text-muted" href="#">Donald trump</a></li>
+              <li><a class="text-muted" href="#">joe biden</a></li>
+              <li><a class="text-muted" href="#">china</a></li>
+              <li><a class="text-muted" href="#">coronavirus</a></li>
+              <li><a class="text-muted" href="#">2020 election</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+    <main class="container main-container mt-5 mt-lg-0 width-custom white-bg pr-0">
+      <div class="row main-news pl-0 pl-md-2 mx-0 px-sm-0 mx-sm-0 w-100"> 
+        <div class="main-news-col-1 col-lg-4 col-md-5 col-sm-12 order-2 order-md-0 pl-0 px-sm-0 mx-sm-0 ">
+          <div class="card-group pr-2 px-sm-0 pr-sm-3 mx-sm-0 d-flex flex-column">
+            <h2 class="news-catagory">FEATURED STORIES</h2>
+            <div class="card max-height-custom mb-3">
+              <div class="card-custom-img">
+                <img class="w-100" src="./images/india-bangalore-riots-muslims-prophet-muhammad-blasphemy.jpg" alt="news week image">
+                <h1 class="card-img-overlay main-color">WORLD</h1>
+              </div>
+              <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Bangalore Riots Erupt Over Facebook Post About Prophet Muhammad</a></h1>
+              <p class="card-text">At least three people were killed when police fired live ammunition to break up the violent protests.<p>
+            </div>
+  
+            <div class="card max-height-custom mb-3">
+              <div class="card-custom-img">
+                <img class="w-100" src="./images/anthony-fauci-coronavirus-covid19-getty.jpg" alt="news week image">
+                <h1 class="card-img-overlay">U.S.</h1>
+              </div>
+              <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Fauci Says Coronavirus Won't Go 'Spontaneously' on Its Own</a></h1>
+              <p class="card-text">Top immunologist Dr. Anthony Fauci said the virus could be brought under control if certain steps are followed.<p>
+            </div>
+            <div class="card max-height-custom mb-3">
+              <div class="card-custom-img">
+                <img class="w-100" src="./images/donald-trump-august-11-2020.jpg" alt="news week image">
+                <h1 class="card-img-overlay">U.S.</h1>
+              </div>
+              <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Donald Trump Claims China, Russia Will Grab 'Plenty' of Mail-In Ballots</a></h1>
+              <p class="card-text">The president issued his unsubstantiated claim as research showed all forms of voter fraud were extremely rare.<p>
+            </div>
+            <div class="card max-height-custom mb-3">
+              <div class="card-custom-img">
+                <img class="w-100" src="./images/ilhan-omar.jpg" alt="news week image">
+                <h1 class="card-img-overlay">U.S.</h1>
+              </div>
+              <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Ilhan Omar's Primary Win Set to Preserve 'The Squad' for Two More Years</a></h1>
+              <p class="card-text">Ilhan Omar, Alexandria Ocasio-Cortez and Rashida Tlaib have all won their primary battles, while Ayanna Pressley is running unopposed in her own.<p>
+            </div>
+            <div class="card max-height-custom mb-3">
+              <div class="card-custom-img">
+                <img class="w-100" src="./images/kamala-harris.jpg" alt="news week image">
+                <h1 class="card-img-overlay">U.S.</h1>
+              </div>
+              <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Your Kamala Harris Questions Answered</a></h1>
+              <p class="card-text">Americans have been asking an array of questions about Joe Biden's pick for vice president.<p>
+            </div>
+          </div>
+        </div>
+
+       <!-- top story -->
+
+       <div class="main-news-col-2 col-lg-5 col-md-7 col-12 order-1 order-md-0 pr-3 pl-0">
+        <h2 class="news-catagory">TOP STORY</h2>
+        <div class="card top-story w-sm-100 max-height-custom">
+          <div class="card-custom-img w-100">
+            <img class="img-fluid w-100" src="./images/kamala-harris-bernie-sanders-liberal-senate-record.jpg" alt="news week image">
+            <h1 class="card-img-overlay">WORLD</h1>
+          </div>
+          <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Kamala Harris More Liberal Than Bernie Sanders, Senate Record Shows</a></h1>
+          <p class="card-text">When ranked by legislative behavior and how similar their bills and resolutions are to other congress members, Harris and Sanders are closer than people might think<p>
+        </div>
+
+        <div class="news-grid d-none d-md-block">
+          <h2 class="news-catagory">MY TURN</h2>
+          <div class="card-deck row">
+            <div class="card col-4 mr-1 pl-0 pr-2">
+              <div class="card-custom-img w-100">
+                <img class="img-fluid" src="./images/marriage-divorce-relationships-therapy.jpg" alt="newsweek image">
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">'I Work With Couples About to Divorce, Here Are Their Top 5 Problems'</a></h1>
+            </div>
+            <div class="card col-4 mx-0 px-2">
+              <div class="card-custom-img w-100">
+                <img class="img-fluid" src="./images/llama-black-lives-matter-protests-portland.jpg" alt="newsweek image">
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">'I'm Bringing a Therapy Llama to the Portland Protests'</a></h1>
+            </div>
+            <div class="card col-4 ml-1 pl-2 pr-0">
+              <div class="card-custom-img w-100">
+                <img class="img-fluid" src="./images/mike-brown-protests-black-lives-matter-film.jpg" alt="newsweek image">
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">'Six Years On From Mike Brown's Death, I Have Not Seen The Change We Need'</a></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-grid d-none d-md-block">
+          <h2 class="news-catagory">CULTURE & TRAVEL</h2>
+          <div class="card-deck">
+            <div class="card col-4 mr-1 pl-0 pr-2">
+              <div class="card-custom-img w-100">
+                <img class="img-fluid" src="./images/cul-map-movies-banner.jpg" alt="newsweek image">
+                <h1 class="card-img-overlay">MOVIES</h1>
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Outdoor Movies Around the World with Cinematic Views</a></h1>
+            </div>
+            <div class="card col-4 mx-0 px-2">
+              <div class="card-custom-img w-100">
+                <img class="img-fluid" src="./images/rv-2.jpg" alt="newsweek image">
+                <h1 class="card-img-overlay">ROAD TRIPS</h1>
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Where Can
+                  Americans Travel Now? A Guide to Countries Open to U.S. Tourists</a></h1>
+            </div>
+            <div class="card col-4 ml-1 pl-2 pr-0">
+              <div class="card-custom-img w-100">
+                <img class="img-fluid" src="./images/great-white-shark.jpg" alt="newsweek image">
+                <h1 class="card-img-overlay">SHARKS</h1>
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Ready for Shark Week? The Most Surprising Facts About Sharks</a></h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- More stoires -->
+
+        <div class="news-stories w-100 d-none d-md-block">
+          <h2 class="news-catagory">MORE STORIES</h2>
+          <div class="news-stories-container py-3 mx-0 row w-100">
+            <div class="news-stories-avatar position-relative mr-0">
+              <img class="position-absolute" src="./images/chicago.jpg" alt="newsweek image">
+            </div>
+            <article class="news-stories-content w-75 pl-0 pl-md-3">
+              <h2 class="stories-header font-weight-bolder">Black Lives Matter Chicago Organizer Defends Looting: 'That's Reparations'</h2>
+              <p class="strories-text text-dark">"I don't care if somebody decides to loot a Gucci or a Macy's or a Nike because that makes sure that that person eats," Black Lives Matter Chicago organizer Ariel Atkins said.</p>
+            </article>
+          </div>
+
+          <div class="news-stories-container py-3 mx-0 row w-100">
+            <div class="news-stories-avatar position-relative mr-0">
+              <img class="img-fluid h-100" src="./images/george-soros-donald-trump-2020-election-conman.jpg" alt="newsweek image">
+            </div>
+            <article class="news-stories-content w-75 pl-0 pl-md-3">
+              <h2 class="stories-header font-weight-bolder">Soros Says Trump Is a Conman Who Will Do 'Anything' to Stay in Power</h2>
+              <p class="strories-text text-dark">>George Soros—long a bogeyman for the global right-wing—said the president is dangerous because he wants to avoid accountability.</p>
+            </article>
+          </div>
+
+          <div class="news-stories-container py-3 mx-0 row w-100">
+            <div class="news-stories-avatar position-relative mr-0">
+              <img class="img-fluid h-100" src="./images/new-zealand-auckland-supermarket-august-2020.jpg" alt="newsweek image">
+            </div>
+            <article class="news-stories-content w-75 pl-0 pl-md-3">
+              <h2 class="stories-header font-weight-bolder">New Zealand's Fauci Says Coronavirus Comeback a 'Shock'</h2>
+              <p class="strories-text text-dark">Trump Says Children Handle COVID Better as He Calls for Reopening
+                Schools</p>
+            </article>
+          </div>
+
+          <div class="news-stories-container py-3 mx-0 row w-100">
+            <div class="news-stories-avatar position-relative mr-0">
+              <img class="position-absolute" src="./images/taiwan-alex-azar-president-tsai-ing-wen.jpg" alt="newsweek image">
+            </div>
+            <article class="news-stories-content w-75 pl-0 pl-md-3">
+              <h2 class="stories-header font-weight-bolder">Taiwan Has Had 7 Coronavirus Deaths. Here's How</h2>
+              <p class="strories-text text-dark">Professor Kerry Brown, of King's College London told Newsweek it is hard to see how Taiwan could have done better. "They must be the global model of how to combat this issue.".</p>
+            </article>
+          </div>
+
+          <div class="news-stories-container py-3 mx-0 row w-100">
+            <div class="news-stories-avatar position-relative mr-0">
+              <img class="position-absolute" src="./images/beirut-lebanon-port-explosion-ngos-aid-international.jpg" alt="newsweek image">
+            </div>
+            <article class="news-stories-content w-75 pl-0 pl-md-3">
+              <h2 class="stories-header font-weight-bolder">Beirut—Safe Haven for World's NGOs—Now Front Line for Aid Workers</h2>
+              <p class="strories-text text-dark">Last week's explosion devastated the city and pushed Lebanon—already grappling with multiple crises—into deeper turmoil...</p>
+            </article>
+          </div>
+
+          <div class="news-stories-container py-3 mx-0 row w-100">
+            <div class="news-stories-avatar position-relative mr-0">
+              <img class="position-absolute" src="./images/chinese-imported-face-masks.jpg" alt="newsweek image">
+            </div>
+            <article class="news-stories-content w-75 pl-0 pl-md-3">
+              <h2 class="stories-header font-weight-bolder">First Seeds, Now Mystery Face Masks Arriving From China to U.S. Mailboxes</h2>
+              <p class="strories-text text-dark">West officially filed as a 2020 presidential candidate with the Federal
+                Election Commission on Thursday.</p>
+            </article>
+          </div>
+
+          <div class="news-stories-container py-3 mx-0 row w-100">
+            <div class="news-stories-avatar position-relative mr-0">
+              <img class="position-absolute" src="./images/scotland-train-derailment.jpg" alt="newsweek image">
+            </div>
+            <article class="news-stories-content w-75 pl-0 pl-md-3">
+              <h2 class="stories-header font-weight-bolder">'Serious Injuries' Reported After Train Derails in Scotland</h2>
+              <p class="strories-text text-dark">Emergency services are at the scene after the train derailed, causing the engine to burst into flames.</p>
+            </article>
+          </div>
+         </div>
+       </div>
+
+       <div class="main-news-col-3 col-lg-3 col-md-12 order-3 order-md-0 pl-0 pr-1 ">
+        <div class="news-debate">
+          <h2 class="news-catagory">THE DEBATE</h2>
+          <div class="news-debate-container py-4">
+            <div class="news-debate-profile d-flex">
+              <div class="news-debate-avatar mx-1">
+                <img src="./images/kelly-shackelford.png" alt="newsweek image">
+              </div>
+              <article class="news-debate-content px-1 d-flex flex-column">
+                <h2 class="news-debate-content-header font-weight-bolder">Religious Freedom Is Under Attack Like Never Before</h2>
+                <div class="news-debate-content-name tex">
+                  <p class="text-muted d-inline-block">BY</p> <strong>KELLY SHACKELFORD</strong>
+                </div>
+              </article>
+            </div>
+            <div class="news-debate-divider my-4 d-block w-100">
+              <div class="divider-icon">VS</div>
+            </div>
+            <div class="news-debate-profile d-flex flex-row-reverse">
+              <div class="news-debate-avatar mx-1">
+                <img src="./images/melissa-rogers.png" alt="newsweek image">
+              </div>
+              <article class="news-debate-content px-1 d-flex flex-column mr-auto">
+                <h2 class="news-debate-content-header font-weight-bolder">Preserve Our Traditions of Religious Freedom and Church-State Separation</h2>
+                <div class="news-debate-content-name tex">
+                  <p class="text-muted d-inline-block">BY</p> <strong>MELISSA ROGERS</strong>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-opinion">
+          <h2 class="news-catagory">OPINION</h2>
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news-debate-avatar mx-1">
+              <img src="./images/michael-e-mann.png" alt="newsweek image">
+            </div>
+            <article class="news-debate-content px-1 d-flex flex-column">
+              <h2 class="news-debate-content-header text-body font-weight-bolder">Climate Scientists Feel Your Pain, Dr. Fauci </h2>
+              <div class="news-debate-content-name tex">
+                <p class="text-muted d-inline-block font-weight-bolder">BY MICHAEL E. MANN</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news-debate-avatar mx-1">
+              <img src="./images/adrian-burrowes.png" alt="newsweek image">
+            </div>
+            <article class="news-debate-content px-1 d-flex flex-column">
+              <h2 class="news-debate-content-header text-body font-weight-bolder">Of Course College Football Stars Want to Play. That Doesn't Mean It's Safe</h2>
+              <div class="news-debate-content-name tex">
+                <p class="text-muted d-inline-block font-weight-bolder">BY ADRIAN BURROWES</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news-debate-avatar mx-1">
+              <img src="./images/mike-dunleavy.png" alt="newsweek image">
+            </div>
+            <article class="news-debate-content px-1 d-flex flex-column">
+              <h2 class="news-debate-content-header text-body font-weight-bolder">Congress Must Catch Up on Telehealth</h2>
+              <div class="news-debate-content-name tex">
+                <p class="text-muted d-inline-block font-weight-bolder">BY MIKE DUNLEAVY</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news-debate-avatar mx-1">
+              <img src="./images/marriage-divorce-relationships-therapy.jpg" alt="newsweek image">
+            </div>
+            <article class="news-debate-content px-1 d-flex flex-column">
+              <h2 class="news-debate-content-header text-body font-weight-bolder">America's Unity in Diversity</h2>
+              <div class="news-debate-content-name tex">
+                <p class="text-muted d-inline-block font-weight-bolder">BY MARIANNE WILLIAMSON</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news-debate-avatar mx-1">
+              <img src="./images/joshua-walker.png" alt="newsweek image">
+            </div>
+            <article class="news-debate-content px-1 d-flex flex-column">
+              <h2 class="news-debate-content-header text-body font-weight-bolder">Force Multiplier Allies: 'Start-Up Nation' Israel Plus 'Scale Nation' Japan</h2>
+              <div class="news-debate-content-name tex">
+                <p class="text-muted d-inline-block font-weight-bolder">BY JOSHUA WALKER</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news-debate-avatar mx-1">
+              <img src="./images/new-zealand-auckland-supermarket-august-2020.jpg" alt="newssweek image">
+            </div>
+            <article class="news-debate-content px-1 d-flex flex-column">
+              <h2 class="news-debate-content-header text-body font-weight-bolder">Philadelphia Statement on Civil Discourse and Strengthening Democracy</h2>
+              <div class="news-debate-content-name tex">
+                <p class="text-muted d-inline-block font-weight-bolder">BY VARIOUS</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="news-signup d-block col-10 col-sm-7 col-lg-12 mx-auto">
+          <form action="#" class="news-signup-form jumbotron jumbotron-fluid py-3 px-4 d-flex flex-column">
+            <div class="form-header d-flex">
+              <div class="form-header-icon mr-3"></div>
+              <h6 class="form-header-title font-weight-bolder">START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
+            </div>
+
+            <input type="email" name="email" id="news-email" placeholder="Email Address">
+            <button class="btn main-bg text-white mt-3 p-1 text-uppercase font-weight-bolder" type="submit">free sign up
+              &#10095;</button>
+          </form>
+        </div>
+       </div>
+     </div>
+    
+
+      <section class="news-magazine mt-md-5 pl-3">
+        <div class="news-magazine-title d-flex justify-content-center w-100 border border-top-0 border-left-0 border-right-0 pb-2">
+          <div class="form-header-icon p-0"></div>
+          <h5 class="text-body font-weight-bolder ml-2">IN THE MAGAZINE</h5>
+        </div>
+        <div class="row d-flex align-items-start w-100 pt-0">
+          <div class="card col-12 col-md-3 first-element pl-2 pl-sm-1">
+            <div class="card-custom-img w-sm-100">
+              <img class="img-fluid w-100" src="./images/cover-august-14-2020.jpg" alt="newsweek image">
+              <h1 class="card-img-overlay main-color">AUGUST 14 ISSUE</h1>
+              <div class="card-footer w-100">
+                <h6 class="text-center font-weight-bolder"> SEE ALL FEATURES &#10095;</h6>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card col-12 col-md-3 pt-4 px-2">
+            <img class="mag-images" src="./images/trump-election-nightmare-2020-cover.jpg" alt="newsweek image" >
+            <div class="card-title mt-2">
+              <h5 class="main-bg d-inline-block px-2 font-weight-bolder text-white">COVER</h5>
+              <h6 class="d-inline-block main-color font-weight-bolder">POLITICS</h6>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bolder">How Trump Could Turn Troubled 2020 Election into an Unprecedented Disaster</h5>
+            </div>
+          </div>
+  
+          <div class="card col-12 col-md-3 pt-4 px-2">
+            <img class="mag-images" src="./images/blue-invasion.jpg" alt="newsweek image" >
+            <div class="card-title mt-2">
+              <h5 class="main-bg d-inline-block px-2 font-weight-bolder text-white">FEATURES</h5>
+              <h6 class="d-inline-block main-color font-weight-bolder">POLITICS</h6>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bolder">Will the blue invasion of red state America finally pay off in 2020?</h5>
+            </div>
+          </div>
+  
+          <div class="card col-12 col-md-3 pt-4 px-2 ">
+            <img class="mag-images" src="./images/congressman-john-lewis.jpg" alt="newsweek image" >
+            <div class="card-title mt-2">
+              <h5 class="main-bg d-inline-block px-2 font-weight-bolder text-white">PERISCOPE</h5>
+              <h6 class="d-inline-block main-color font-weight-bolder">OPINION</h6>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bolder">In the Name of John Lewis, Let Us Restore the Voting Rights Act</h5>
+            </div>
+          </div>
+  
+          <div class="card col-12 col-md-3 pt-4 px-2 ">
+            <img class="mag-images" src="./images/per-bunker-banner.jpg" alt="newsweek image" >
+            <div class="card-title mt-2">
+              <h5 class="main-bg d-inline-block px-2 font-weight-bolder text-white">PERISCOPE</h5>
+              <h6 class="d-inline-block main-color font-weight-bolder">CULTURE</h6>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bolder">A Look Inside the Luxury Bunker Built by Doomsday Preppers for the Apocalypse</h5>
+            </div>
+          </div>
+  
+          <div class="card col-12 col-md-3 pt-4 px-2 ">
+            <img class="mag-images" src="./images/galicia-spain-beach-coronavirus-july-2020.jpg" alt="newsweek image" >
+            <div class="card-title mt-2">
+              <h5 class="main-bg d-inline-block px-2 font-weight-bolder text-white">PERISCOPE</h5>
+              <h6 class="d-inline-block main-color font-weight-bolder">CULTURE</h6>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bolder">Europe Fears Coronavirus Second Wave Amid Spikes in Spain, France, Germany</h5>
+            </div>
+          </div>
+          <div class="card col-12 col-md-3 pt-4 px-2 ">
+            <img class="mag-images" src="./images/street-hassle.png" alt="newsweek image" >
+            <div class="card-title mt-2">
+              <h5 class="main-bg d-inline-block px-2 font-weight-bolder text-white">IN FOCUS</h5>
+              <h6 class="d-inline-block main-color font-weight-bolder">STREET HASSLE</h6>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bolder"></h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="news-magazine editors-pick mt-4">
+        <div
+          class="news-magazine-title d-flex justify-content-center w-100 border border-top-0 border-left-0 border-right-0 pb-2">
+          <div class="form-header-icon p-0"></div>
+          <h5 class="text-body font-weight-bolder ml-2">EDITOR'S PICK</h5>
+        </div>
+        <div class="row d-flex align-items-start w-100 pl-3">
+          <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+            <div class="card">
+              <img class="w-100 h-75 card-img-top" src="./images/per-going-back-01-1220587865.jpg" alt="newsweek image" >
+              <div class="card-img-overlay">
+                <h5 class="main-color d-inline-block px-2 font-weight-bolder ">BUSINESS</h5>
+              </div>  
+            </div>
+            <div class="p-0">
+              <h5 class="font-weight-bolder">What to Do If Work Calls You Back to the Office and You're Not Ready to Go</h5>
+              <p class="card-text">More than half of companies with a large remote workforce plan to bring back employees to work in person soon. Not convinced
+                it's safe or can't go because of childcare issues? Here are your options, plus what else to expect when offices re-open this fallyear.<p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+            <div class="card">
+              <img class="w-100 h-75 card-img-top" src="./images/la-california-child-coronavirus-testing-july-2020.jpg" alt="newsweek image" >
+              <div class="card-img-overlay">
+                <h5 class="main-color d-inline-block px-2 font-weight-bolder ">News</h5>
+              </div>  
+            </div>
+            <div class="p-0">
+              <h5 class="font-weight-bolder">Child Coronavirus Cases Are Highest in These States</h5>
+              <p class="card-text">China posted better than expected 3.2 percent GDP growth in the second quarter of 2020,
+                following a record contraction in the first portion of the year.<p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+            <div class="card">
+              <img class="w-100 h-75 card-img-top" src="./images/joe-biden-kamala-harris-ivy-league-degrees.jpg" alt="newsweek image" >
+              <div class="card-img-overlay">
+                <h5 class="main-color d-inline-block px-2 font-weight-bolder ">U.S.</h5>
+              </div>  
+            </div>
+            <div class="p-0">
+              <h5 class="font-weight-bolder">Biden and Harris Are First Ticket in 40 Years Without Ivy League Degrees</h5>
+              <p class="card-text">Biden double majored in history and political science and received his Bachelor of Arts 
+                (BA) from the University of Delaware in Newark in 1965. He received his Doctor of Jurisprudence (JD) from Syracuse University in New York state in 1968.<p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+            <div class="card">
+              <img class="w-100 h-75 card-img-top" src="./images/perseid-meteor-shower.jpg" alt="newsweek image" >
+              <div class="card-img-overlay">
+                <h5 class="main-color d-inline-block px-2 font-weight-bolder ">TECH & SCIENCE</h5>
+              </div>  
+            </div>
+            <div class="p-0">
+              <h5 class="font-weight-bolder">Perseid Meteor Shower in Pictures As NASA's 'Best' of Year Peaks</h5>
+              <p class="card-text">Meteor showers occur when the Earth passes through streams of cosmic debris.<p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+            <div class="card">
+              <img class="w-100 h-75 card-img-top" src="./images/space.jpg" alt="newsweek image" >
+              <div class="card-img-overlay">
+                <h5 class="main-color d-inline-block px-2 font-weight-bolder ">TECH & SCIENCE</h5>
+              </div>  
+            </div>
+            <div class="p-0">
+              <h5 class="font-weight-bolder">The Universe Will End With a Black Dwarf Supernova</h5>
+              <p class="card-text">The last ever explosions will be silent fireworks that take place long after everything else in the universe has died, a study has found.<p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+            <div class="card">
+              <img class="w-100 h-75 card-img-top" src="./images/vaping-stock-getty.jpg" alt="newsweek image" >
+              <div class="card-img-overlay">
+                <h5 class="main-color d-inline-block px-2 font-weight-bolder ">HEALTH</h5>
+              </div>  
+            </div>
+            <div class="p-0">
+              <h5 class="font-weight-bolder">Vaping Could Be Putting Millions of School Children at Risk of COVID-19</h5>
+              <p class="card-text">Co-author professor Bonnie Halpern-Felshe told Newsweek: "These findings show yet again that e-cigarettes are harmful to youth and in particular, 
+                related to lung illness."<p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+            <div class="card">
+              <img class="w-100 h-75 card-img-top" src="./images/nancy-pelosi.jpg" alt="news week image" >
+              <div class="card-img-overlay">
+                <h5 class="main-color d-inline-block px-2 font-weight-bolder ">BUSINESS</h5>
+              </div>  
+            </div>
+            <div class="p-0">
+              <h5 class="font-weight-bolder">U.S. Dollar Strengthens on Hopes of Stimulus Deal Despite Congress Gridlock</h5>
+              <p class="card-text">This was despite warnings from big players facing "real concerns" about its longevity as the world's reserve currency<p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+            <div class="card">
+              <img class="w-100 h-75 card-img-top" src="./images/bottles-dr-pepper.jpg" alt="newsweek image" >
+              <div class="card-img-overlay">
+                <h5 class="main-color d-inline-block px-2 font-weight-bolder ">NEWS</h5>
+              </div>  
+            </div>
+            <div class="p-0">
+              <h5 class="font-weight-bolder">A Second Wave Could Mean Better Survival Rates for Coronavirus Patients</h5>
+              <p class="card-text">The Dr Pepper Snapple Group has identified a shortage of its soft drinks across the U.S. and is looking to rectify the situation.<p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news-world container-fluid">      
+        <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+          <h4 class="main-color font-weight-bolder">U.S</h4>
+        </div>
+        <div class="news-world-grid row">
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/joe-biden.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Biden Wins Over Trump in 71 Percent Out of 40,000 Simulations: Forecast</a></h5>
+          </div>
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/kamala-harris-joe-biden-delaware-speech-watch.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">How to Watch, Live Stream Kamala Harris, Joe Biden's Delaware Remarks</a></h5>
+          </div>
+  
+          <div class="news-world-stories col-12 col-md-4 pb-3">
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/sen-kamala-harris-california.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Who Will Replace Kamala Harris as California Senator?Who Will Replace Kamala Harris as California Senator?</h2>
+              </article>
+            </div>
+  
+            <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+              <div class="img-cont mr-sm-3 p-0">
+                <img src="./images/mega-millions.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Mega Millions Results, Numbers for 8/11/20: Did Anyone Win the $24 Million?</h2>
+              </article>
+            </div>
+  
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/blue-invasion.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">'Black Lives Matter' Signs Vandalized With KKK Imagery Across MA Town</h2>
+              </article>
+            </div>
+          </div>
+        </div>
+  
+        <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+          <h4 class="main-color font-weight-bolder">WORLD</h4>
+        </div>
+        <div class="news-world-grid row">
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/trowels-toilet-break.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Trowels in Lay-Bys Placed for Those who Need "Urgent Toilet Breaks"n</a></h5>
+          </div>
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/megan-cook.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">The Reality of University Without the Normal Parties, Classes or Friends</a></h5>
+          </div>
+  
+          <div class="news-world-stories col-12 col-md-4 pb-3">
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/taiwan-china-us-alex-azar-zhao-lijian.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">China Warns U.S., Taiwan: 'People Who Play With Fire Will Burn Themselves'</h2>
+              </article>
+            </div>
+  
+            <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/china-peoples-liberation-army-india-tibet.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">China Debuts New Weapons Near Border As India Readies for Tensions</h2>
+              </article>
+            </div>
+  
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/us-china-cargo-container.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Forget Taiwan. The Latest U.S.-China Spat is Over Sofas and Coffee Tables</h2>
+              </article>
+            </div>
+          </div>
+        </div>
+  
+        <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+          <h4 class="main-color font-weight-bolder">BUSINESS</h4>
+        </div>
+        <div class="news-world-grid row">
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/stock-exchange.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Stocks May Anticipate Economic Surge As S&P Nears Record High</a></h5>
+          </div>
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/chinagdp.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">China Celebrates Coronavirus Economy Recovery As U.S. Battles Recession</a></h5>
+          </div>
+  
+          <div class="news-world-stories col-12 col-md-4 pb-3">
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/uber-lyft-sign.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">After Judge Rules Uber, Lyft Drivers Are Employees, What Happens Next?</h2>
+              </article>
+            </div>
+  
+            <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/anna-peric-planet-fitness-mask.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Ohio Woman Refuses Mask in Planet Fitness, Accuses Staffer of 'Harassment'</h2>
+              </article>
+            </div>
+  
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/closed-covid-19-coronavirus.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Private Sector Jobs Growth Six Times Worse Than Expected in July</h2>
+              </article>
+            </div>
+          </div>
+        </div>
+  
+        <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+          <h4 class="main-color font-weight-bolder">TECH & SCIENCE</h4>
+        </div>
+        <div class="news-world-grid row">
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/donald-trump-twitter-big-tech.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Trump Says Big Tech '100 Percent' Wants Total Control of Information</a></h5>
+          </div>
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/stock-photo-global-network-concept.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">In 200 Years, Half of the Planet's Mass Could Be Made of 'Digital Bits</a></h5>
+          </div>
+  
+          <div class="news-world-stories col-12 col-md-4 pb-3">
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/brick-supercapacitor.jpg" alt="news week image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Bricks That Store Energy Created by Scientists That Could Power Electronics</h2>
+              </article>
+            </div>
+  
+            <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/richard-yu.jpg" alt="news week image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Huawei's Loss of High-End Phone Chips May Spell 'Big Trouble' for Tech Firm</h2>
+              </article>
+            </div>
+  
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/reef-shark.jpg" alt="news week image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Gruesome Shark Feeding Video Suggests They Prefer Fish to Human Blood</h2>
+              </article>
+            </div>
+          </div>
+        </div>
+  
+        <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+          <h4 class="main-color font-weight-bolder">CULTURE</h4>
+        </div>
+        <div class="news-world-grid row">
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/chrishell-stause-justin-hartley.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Chrishell Stause Posts About Empowering Women, Justin Hartley Backed By E</a></h5>
+          </div>
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/umbrella-academy-season-2-netflix.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Where You Can Find the 43 Sparrows Hidden in 'The Umbrella Academy'</a></h5>
+          </div>
+  
+          <div class="news-world-stories col-12 col-md-4 pb-3">
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/christine-wedding-selling-sunset-coronavirus.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Christine from 'Selling Sunset' Says She Had COVID-19 On Her Wedding Day</h2>
+              </article>
+            </div>
+  
+            <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/will-smith.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">What Will Smith Has Said About the 'Fresh Prince of Bel-Air' Reboot</h2>
+              </article>
+            </div>
+  
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/wizards-waverly-place-reunion.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Selena Gomez Teases 'Wizards of Waverly Place' Reunion Later This Month</h2>
+              </article>
+            </div>
+          </div>
+        </div>
+  
+        <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+          <h4 class="main-color font-weight-bolder">Sports</h4>
+        </div>
+        <div class="news-world-grid row">
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/uefa-champions-league.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">UEFA Champions League 2020: Quarterfinals Bracket, TV Schedule, Live Stream</a></h5>
+          </div>
+          <div class="card m-0 pr-4 col-12 col-md-4">
+            <div class="card-custom-img  max-height-custom w-100">
+              <img class="img-fluid w-100" src="./images/patrick-mahomes-kansas-city-chiefs-lamar-jackson.jpg" alt="newsweek image">
+            </div>
+            <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">NFL Monday Night Football Schedule: Full Slate of Games, Kick-Off Times</a></h5>
+          </div>
+  
+          <div class="news-world-stories col-12 col-md-4 pb-3">
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/chuck-norris.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Chuck Norris Says Sports on TV is Vital To America's Recovery From COVID-19</h2>
+              </article>
+            </div>
+  
+            <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/president-trump-college-football.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">Trump Urges Colleges to Play Football After Big Ten, Pac-12 Cancel In 2020</h2>
+              </article>
+            </div>
+  
+            <div class="py-0 mx-0 w-100 pb-0 d-flex">
+              <div class="img-cont mr-sm-3 p-0 ">
+                <img src="./images/nick-saban-alabama-tua-tagovailoa.jpg" alt="newsweek image">
+              </div>
+              <article class="news-stories-content w-75  ml-md-1">
+                <h2 class="stories-header font-weight-bolder p-0 m-0 pl-2 pl-md-0">What College Football Coaches Have Said About the Season Not Going Ahead</h2>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news-subscribe border border-left-0 border-right-0 py-4 pb-5 px-sm-2 width-custom">
+        <h6 class="main-color font-weight-bolder">SUBSCRIBE</h6>
+        <div class="row px-0 mx-0">
+          <div class="col-12 col-lg-8 pl-0">
+            <div class="jumbotron position-relative mr-0 py-0 pb-3 py-md-5 mb-0 d-flex justify-content-start justify-content-md-center">
+              <div class="position-relative subsc-img-cont">
+                <img src="./images/cover-july-31-august-07-2020.jpg" alt="newsweek image">
+                <img class="position-absolute mt-4" src="./images/cover-august-14-2020.jpg" alt="newsweek image">
+              </div>
+              <div class="d-flex flex-column ml-4 pl-4 align-self-md-center align-self-end subsc-txt-cont align-items-center align-items-md-start">
+                <h4 class="font-weight-bolder text-body mb-0 mb-md-4">In-depth Stories You Don't See Elsewhere About Topics You
+                  Want to Read!</h4>
+                <p>All Access + Weekly Delivery.</p>
+                <p>A Membership That's Perfect for You</p>
+                <button
+                  class="btn btn-default align-self-center align-self-md-start text-uppercase main-bg font-weight-bolder text-white mt-4"
+                  type="button">subscribe &#10095;</button>
+              </div>
+            </div>
+          </div>
+
+          <h6 class="main-color font-weight-bolder d-block d-lg-none mt-4 mb-2">NEWS LETTER</h6>
+          <div class="pl-3 pl-md-0 col-12 col-lg-4">
+            <div class="news-letter border row  pl-0 ml-md-1">
+              <div class="col-3 col-lg-6 d-none d-md-flex px-0">
+                <img class="w-100" src="./images/newsl.png" alt="news week image">
+              </div>
+              <div class="col-12 col-md-9 col-lg-6 pr-0 pt-4 d-flex flex-column justify-content-md-center align-items-center align-items-md-start">
+                <h4 class="font-weight-bolder">The Starting 5</h4>
+                <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                <form class="mt-4 w-100 d-flex flex-column" action="#">
+                  <input class="" type="email" name="email" id="email-1" placeholder="email address">
+                  <button class="btn main-bg text-white mt-3 p-1 text-uppercase font-weight-bolder" type="submit">free sign
+                    up &#10095;</button>
+                </form>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <footer class="container-fluid mt-3 pb-4">
+      <div class="footer-header d-felx row border-bottom pb-3">
+        <div class="footer-logo col-12 col-md-8 d-flex flex-column flex-md-row">
+          <img class="footer-logo" src="./media/logo2.png" alt="newsweek image">
+          <p class="text-secondary align-self-start align-self-md-end mx-2">© 2020 NEWSWEEK</p>
+        </div>
+        <div class="footer-icons d-flex col-12 col-md-4 justify-content-md-end align-items-end">
+          <ul class="d-flex list-unstyled mb-0">
+            <li><a class="text-muted" href="#"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+            <li><a class="text-muted" href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+            <li><a class="text-muted" href="#"><i class="fa fa-2x fa-instagram"></i></a></li>
+            <li><a class="text-muted" href="#"><i class="fa fa-2x fa-tumblr"></i></a></li>
+            <li><a class="text-muted" href="#"><i class="fa fa-2x fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-footer">
+        <div class="my-2">
+          <div class="d-flex">
+            <span class="font-weight-bold font-weight-bold mr-2">Editions:</span>
+            <ul class="nav footers">
+              <li class="nav-item pr-2">
+                <a class="text-secondary font-weight-light nav-link border-right py-0" href="#">U.S edition</a>
+              </li>
+              <li class="nav-item pr-2">
+                <a class="text-secondary py-0 border-right  font-weight-light nav-link" href="#">日本</a>
+              </li>
+              <li class="nav-item pr-2">
+                <a class="text-secondary py-0 border-right  font-weight-light nav-link" href="#">Pakistan</a>
+              </li>
+              <li class="nav-item pr-2">
+                <a class="text-secondary py-0 border-right  text-capitalize font-weight-light nav-link"
+                  href="#">Polska</a>
+              </li>
+              <li class="nav-item pr-2">
+                <a class="text-secondary py-0 border-right  text-capitalize font-weight-light nav-link"
+                  href="#">Romania</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="nav footer-links footers">
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Corrections</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Editorial
+                Guideline</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Advertise</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Copyright</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Terms &
+                Conditions</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link"
+                href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link"
+                href="#">Cookie Policy</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link"
+                href="#">Terms of Sale</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link"
+                href="#">Archieve</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link"
+                href="#">Announcements</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link"
+                href="#">Consent preferences</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    </main>
+
+    <!-- bootstrap js & jquery -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+
+<!-- scroll js -->
+
+<script src="./js/scroll.js"></script>
+</body>
+</html>
